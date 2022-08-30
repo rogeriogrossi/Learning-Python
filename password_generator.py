@@ -14,6 +14,3 @@ def password_generator(digits=8, wgt_str=1, wgt_else=2):
     random.shuffle(password)
     password = "".join(password)
     return password
-
-
-print(password_generator(digits=15))
